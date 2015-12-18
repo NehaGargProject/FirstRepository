@@ -15,6 +15,8 @@
 		D6F0BF271C20D95800195F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F0BF251C20D95800195F53 /* LaunchScreen.storyboard */; };
 		D6F0BF321C20D95800195F53 /* demodiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0BF311C20D95800195F53 /* demodiceTests.m */; };
 		D6F0BF3D1C20D95800195F53 /* demodiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0BF3C1C20D95800195F53 /* demodiceUITests.m */; };
+		D6F0BF4C1C20D9EB00195F53 /* DiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0BF4B1C20D9EB00195F53 /* DiceDataController.m */; };
+		D6F0BF551C20DEFE00195F53 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0BF541C20DEFE00195F53 /* DView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D6F0BF381C20D95800195F53 /* demodiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demodiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F0BF3C1C20D95800195F53 /* demodiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demodiceUITests.m; sourceTree = "<group>"; };
 		D6F0BF3E1C20D95800195F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F0BF4A1C20D9EB00195F53 /* DiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceDataController.h; sourceTree = "<group>"; };
+		D6F0BF4B1C20D9EB00195F53 /* DiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceDataController.m; sourceTree = "<group>"; };
+		D6F0BF531C20DEFE00195F53 /* DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		D6F0BF541C20DEFE00195F53 /* DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,15 @@
 		D6F0BF161C20D95800195F53 /* demodice */ = {
 			isa = PBXGroup;
 			children = (
+				D6F0BF531C20DEFE00195F53 /* DView.h */,
+				D6F0BF541C20DEFE00195F53 /* DView.m */,
 				D6F0BF1A1C20D95800195F53 /* AppDelegate.h */,
 				D6F0BF1B1C20D95800195F53 /* AppDelegate.m */,
 				D6F0BF1D1C20D95800195F53 /* ViewController.h */,
 				D6F0BF1E1C20D95800195F53 /* ViewController.m */,
 				D6F0BF201C20D95800195F53 /* Main.storyboard */,
+				D6F0BF4A1C20D9EB00195F53 /* DiceDataController.h */,
+				D6F0BF4B1C20D9EB00195F53 /* DiceDataController.m */,
 				D6F0BF231C20D95800195F53 /* Assets.xcassets */,
 				D6F0BF251C20D95800195F53 /* LaunchScreen.storyboard */,
 				D6F0BF281C20D95800195F53 /* Info.plist */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6F0BF1F1C20D95800195F53 /* ViewController.m in Sources */,
+				D6F0BF551C20DEFE00195F53 /* DView.m in Sources */,
 				D6F0BF1C1C20D95800195F53 /* AppDelegate.m in Sources */,
+				D6F0BF4C1C20D9EB00195F53 /* DiceDataController.m in Sources */,
 				D6F0BF191C20D95800195F53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
